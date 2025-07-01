@@ -1,6 +1,8 @@
 # Log Monitoring Application
 
-This application monitors job durations from a CSV log file and reports warnings or errors if jobs exceed specified time thresholds. It now supports logs spanning multiple days, CLI arguments, export to CSV/JSON, and improved error handling.
+This application was created with Vibe coding and prompt generation and refinement with GitHub Copilot and Python on VS Code using GPT-4.1.  
+
+The app monitors job durations from a CSV log file and reports warnings or errors if jobs exceed specified time thresholds. It now supports logs spanning multiple days, CLI arguments, export to CSV/JSON, and improved error handling.
 
 ## Features
 - Parses a CSV log file (`logs.log`).
