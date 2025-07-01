@@ -1,0 +1,2 @@
+# Project dependencies
+# Add any additional dependencies as needed
