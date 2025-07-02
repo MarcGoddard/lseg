@@ -3,7 +3,7 @@ import csv
 import json
 from datetime import timedelta
 from typing import Dict, List
-from .log_parser import JobEvent
+from src.log_parser import JobEvent
 
 class ReportGenerator:
     def __init__(self, warning_threshold: timedelta, error_threshold: timedelta):

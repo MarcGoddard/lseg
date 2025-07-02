@@ -3,8 +3,8 @@ import logging
 from datetime import timedelta
 import sys
 import os
-from log_parser import LogParser
-from report_generator import ReportGenerator
+from src.log_parser import LogParser
+from src.report_generator import ReportGenerator
 
 def setup_logging():
     logging.basicConfig(
