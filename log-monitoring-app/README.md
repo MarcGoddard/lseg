@@ -2,6 +2,12 @@
 
 A modular Python application for monitoring job durations from log files, reporting warnings and errors if jobs exceed specified thresholds. Now structured for maintainability and scalability.
 
+This application was created with Vibe coding and prompt generation and refinement with GitHub Copilot and Python on VS Code using GPT-4.1.
+
+See lseg/log-monitoring-app/ for refactored v2.0
+
+The app monitors job durations from a CSV log file and reports warnings or errors if jobs exceed specified time thresholds. It now supports logs spanning multiple days, CLI arguments, export to CSV/JSON, and improved error handling.
+
 ## Project Structure
 
 ```
